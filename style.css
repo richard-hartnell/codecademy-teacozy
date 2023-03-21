@@ -29,6 +29,7 @@ header {
     margin-top: 69px;
     width: 1200px;
     height: 700px;
+    position: absolute;
     background-image: url('img-mission-background.jpg');
     align-content: space-around;
 }
