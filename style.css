@@ -5,6 +5,7 @@
     opacity: 0.9;
     margin-left: auto;
     margin-right: auto;
+    justify-content: auto;
 }
 
 h2 {
@@ -25,34 +26,26 @@ nav {
     border-bottom: 1px solid seashell;
 }
 
+#menu {
+    text-decoration: underline;
+}
+
 header {
     margin-top: 69px;
     width: 1200px;
     height: 700px;
-    position: absolute;
+    display: flex;
     background-image: url('img-mission-background.jpg');
-    align-content: space-around;
-}
-
-#menu {
-    text-decoration: underline;
+    justify-self: center;
 }
 
 #headerbar {
     text-align: center;
     text-justify: space-around;
-    position: static;
-    width: 100%;
-    vertical-align: middle;
     background: black;
-    display: block;
     opacity: 1;
-    position: absolute;
-    top: 30%;
+    align-self: center;
+    height: 100px;
+    width: 100%;
+    padding-bottom: 30px;
 }
-/* 
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    vertical-align: 
-} */
