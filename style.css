@@ -1,42 +1,65 @@
 * {
-    background-color: black;
     color: seashell;
     font-family: Helvetica, sans-serif;
-    opacity: 0.9;
     margin-left: auto;
     margin-right: auto;
-    justify-content: auto;
 }
 
 h2 {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 22px;
+}
+
 h4 {
     font-size: 22px;
 }
 
+body {
+    background-color: black;
+    opacity: 0.9;
+    width: 95%;
+}
+
 nav {
     position: fixed;
+    display: flex;
     top: 0;
     opacity: 0.9;
     background-color: black;
     width: 100%;
     height: 69px;
     border-bottom: 1px solid seashell;
+    z-index: 99;
 }
 
 #menu {
+    width: 20%;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
     text-decoration: underline;
+    justify-self: end;
+    font-size: 22px;
 }
 
 header {
+    padding-top: 69px;
     margin-top: 69px;
     width: 1200px;
     height: 700px;
     display: flex;
     background-image: url('img-mission-background.jpg');
     justify-self: center;
+}
+
+#tea-of-month-bar {
+    width: 100%;
+    background-color: black;
+    position: relative;
+    text-align: center;
 }
 
 #headerbar {
@@ -48,4 +71,49 @@ header {
     height: 100px;
     width: 100%;
     padding-bottom: 30px;
+}
+
+#teas-of-month {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-self: center;
+    justify-items: space-around;
+}
+
+#teas-of-month img {
+    height: 200px;
+    width: 300px;
+    align-self: center;
+    padding-bottom: 10px;
+}
+
+#teas-of-month div {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#locations {
+    padding-top: 50px;
+    background-image: url("img-locations-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    gap: 40px;
+    text-align: center;
+}
+
+#locationboxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: space-around;
+}
+
+#locationboxes div {
+    background-color: black;
+    padding: 10px;
+    width: 300px;
+    opacity: 1;
 }
